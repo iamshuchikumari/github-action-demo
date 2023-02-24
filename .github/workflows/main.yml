@@ -35,10 +35,10 @@ jobs:
         run: java -version
         
       - name: Compiling Shuchi.java source code 
-        run: cp javac ./.github/Shuchi.java /
+        run: javac ./.github/Shuchi.java /
         
       - name: Listing Files 
-        run: ls
+        run: pwd
       
       - name: Executing Shuchi.java source code 
         run: java /Shuchi
