@@ -35,7 +35,7 @@ jobs:
         run: java -version
         
       - name: Compiling Shuchi.java source code 
-        run: javac ./.github/Shuchi.java /
+        run: javac ./.github/Shuchi.java
         
       - name: Listing Files 
         run: pwd
