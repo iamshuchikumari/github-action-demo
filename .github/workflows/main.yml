@@ -35,13 +35,13 @@ jobs:
         run: java -version
         
       - name: Compiling Shuchi.java source code 
-        run: javac ./.github/Shuchi.java
+        run: copy javac ./.github/Shuchi.java /
         
       - name: Listing Files 
         run: ls
       
       - name: Executing Shuchi.java source code 
-        run: java Shuchi
+        run: java /Shuchi
       
       - name: Step 4 - Build your your Jakarta web app with Maven
         run: echo mvn -B package --file pom.xml
