@@ -31,6 +31,8 @@ jobs:
         with: 
           java-version: 1.8
 
+      - name: Printing Java Version
+        run: java -version
       - name: Step 4 - Build your your Jakarta web app with Maven
         run: echo mvn -B package --file pom.xml
           
