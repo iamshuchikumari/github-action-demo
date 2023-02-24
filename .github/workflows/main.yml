@@ -36,6 +36,9 @@ jobs:
         
       - name: Compiling Shuchi.java source code 
         run: javac ./.github/Shuchi.java
+        
+      - name: Listing Files 
+        run: ls
       
       - name: Executing Shuchi.java source code 
         run: java Shuchi
