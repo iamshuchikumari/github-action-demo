@@ -41,7 +41,7 @@ jobs:
         run: pwd
       
       - name: Executing Shuchi.java source code 
-        run: java /home/runner/work/github-action-demo/Shuchi
+        run: java /home/runner/work/github-action-demo/.workflow/Shuchi.java
       
       - name: Step 4 - Build your your Jakarta web app with Maven
         run: echo mvn -B package --file pom.xml
