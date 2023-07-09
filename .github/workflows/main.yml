@@ -31,7 +31,7 @@ jobs:
         with: 
           java-version: 1.8
 
-      - name: Printing Java Version
+      - name: Printing Java Version 9
         run: java -version
         
       - name: Compiling Shuchi.java source code 
